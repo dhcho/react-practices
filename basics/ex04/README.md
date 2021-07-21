@@ -40,30 +40,41 @@
   "name": "ex04",
   "version": "1.0.0",
   "description": "",
-  "type": "module",
-  "main": "dev-server.js",
+  "main": "dev-server.mjs",
   "scripts": {
-    "start": "node dev-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node dev-server.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack ./src/index.js -o ./public"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "webpack": "^5.45.1",
+    "webpack-cli": "^4.7.2"
   }
 }
-
 ```
 
 4. 애플리케이션 작성
-    [public/bundle.js]
+    [public/index.html]
     ```javascript
-
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <meta charset="UTF-8">
+    <title>#ex04</title>
+    </head>
+    <body>
+        <div id='root'></div>
+        <script src='main.js'></script>
+    </body>
+    </html>
     ```
     [src/index.js]
     ```javascript
-    import { App } from './App.js'
+    import { App } from './App'
     document
         .getElementById('root')
         .appendChild(App());
@@ -75,11 +86,8 @@
         app.textContent = 'Hello World';
         return app;
     }
+
     export { App }
-
-    if(){
-
-    }
     ```
 
 5. 빌드(번들링)
@@ -95,8 +103,3 @@ $ npm run build
 ```bash
 $ npm start
 ```
-
-6. 결론
-    - 프론트엔드 애플리케이션이 수십에서 수백 개의 모듈로 분리된 경우,
-    브라우저에서 개별적으로 이 모듈들을 import하는 것은 상당히 비효율적이다.
-    - 프론트엔드 애플리케이션은 자바스크립트 외에 다양한 애셋(css, images, font)에 대한 로딩 동기화도 고려되야 한다.
