@@ -6,7 +6,7 @@ const port = 8080;
 
 // Application Setup
 const application = express()
-    .use(express.static(path.join(path.resolve('.'), "/public")));
+    .use(express.static(path.join(path.resolve('.'), '/public')));
     
 // Server Setup
 http.createServer(application)
