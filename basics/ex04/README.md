@@ -11,7 +11,7 @@
 5. 자바스크립트 뿐만 아니라 다양한 애셋(image, css, font)들도 모듈로 취급하여 추상화한다.  
 
 
-1. 프로젝트 생성
+6. 프로젝트 생성
     ```bash
     $ mkdir ex04
     $ cd ex04
@@ -20,7 +20,7 @@
     $ npm ./node_modules/.bin/webpack --version
     $ npx webpack --version
     ```
-2. 프로젝트 디렉토리
+7. 프로젝트 디렉토리
     <pre>
       /ex04
         |--- package.json
@@ -32,9 +32,9 @@
         |--- src
         |       |--- index.js
         |       |--- App.js
-        |--- dev-server
+        |--- dev-server.mjs
     </pre>
-3. scripts
+8. scripts
 ```json
 {
   "name": "ex04",
@@ -50,9 +50,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "express": "^4.17.1",
-    "webpack": "^5.45.1",
-    "webpack-cli": "^4.7.2"
+    "express": "^4.17.1"
   }
 }
 ```
