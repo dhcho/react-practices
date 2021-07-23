@@ -20,7 +20,7 @@
         |--- src
         |       |--- index.js
         |       |--- App.js
-        |--- dev-server
+        |--- webpack.config.js
     </pre>
 
 3. scripts
