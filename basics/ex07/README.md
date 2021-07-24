@@ -5,7 +5,7 @@
     $ mkdir ex07
     $ cd ex07
     $ npm init -y
-    $ npm i -D webpack webpack-cli webpack-dev-server babel-loader @babel/core @babel/preset-env @babel/preset-react
+    $ npm i -D webpack webpack-cli webpack-dev-server babel-loader @babel/core @babel/preset-env @babel/preset-react css-loader style-loader sass-loader node-sass file-loader
     $ npm i react react-dom
     ```
 2. 프로젝트 디렉토리
@@ -45,11 +45,24 @@
             filename: 'bundle.js'
         },
         module: {
-          rules:[{
-              test: /\.js$/i,
-              exclude: /node_modules/,
-              loader: 'babel-loader'
-          }]
+            rules:[{
+                test: /\.css$/i,
+                use:['style-loader', 'css-loader']
+            }, {
+                test: /\.s[ac]ss$/i,
+                use: ['style-loader', 'css-loader', 'sass-loader']
+            }, {
+                test: /\.(svg|jpe?g|gif|png|tiff?|bmp|ico|)$/i,
+                loader: 'file-loader',
+                options: {
+                    outputPath: '/assets/images',
+                    name: '[name].[ext]'
+                }
+            }, {
+                test: /\.js$/i,
+                exclude: /node_modules/,
+                loader: 'babel-loader'
+            }]
         },
         devServer: {
             contentBase: path.resolve('public'),
@@ -70,11 +83,11 @@
         "presets":[["@babel/env", {
             "targets": {
                 "ie": "11",
-                "edge": "80",
-                "firefox": "73",
-                "chrome": "82",
-                "opera": "69",
-                "safari": "13"
+                "edge": "89",
+                "firefox": "92",
+                "chrome": "90",
+                "opera": "76",
+                "safari": "15"
             }
         }], "@babel/react"]
     }

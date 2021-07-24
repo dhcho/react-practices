@@ -1,12 +1,31 @@
 {
   "name": "ex07",
   "version": "1.0.0",
-  "description": "",
+  "description": "1. 프로젝트 생성\r     ```bash\r     $ mkdir ex07\r     $ cd ex07\r     $ npm init -y\r     $ npm i -D webpack webpack-cli webpack-dev-server babel-loader @babel/core @babel/preset-env @babel/preset-react\r     $ npm i react react-dom\r     ```\r 2. 프로젝트 디렉토리\r     <pre>\r       /ex07\r         |--- package.json\r         |--- package-lock.json\r         |--- node-modules\r         |--- public\r         |       |--- index.html\r         |       |--- bundle.js    [빌드결과물]\r         |--- src",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx webpack",
+    "start": "npx webpack serve --progress"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.2.0",
+    "file-loader": "^6.2.0",
+    "node-sass": "^6.0.1",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.46.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
 }
