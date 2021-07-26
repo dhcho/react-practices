@@ -1,19 +1,18 @@
 const path = require('path');
 
-module.exports = {
-    mode: "none",
-    entry: path.resolve('src/index.js'),
+module.exports = (env) => {
+    const entry = path.resolve(`src/${env.src}/index.js`);
+    
+    return {
+    entry: entry,
     output: {
-        path: path.resolve('public'),
+        path: path.resolve(`public`),
         filename: 'bundle.js'
     },
     module: {
         rules:[{
             test: /\.css$/i,
-            use:[
-                'style-loader', 
-                {loader: 'css-loader', options:{ modules: true} }
-            ]
+            use:['style-loader', 'css-loader']
         }, {
             test: /\.s[ac]ss$/i,
             use: ['style-loader', 'css-loader', 'sass-loader']
@@ -30,10 +29,8 @@ module.exports = {
             loader: 'babel-loader'
         }]
     },
-    devtool: "eval-source-map",
     devServer: {
         contentBase: path.resolve('public'),
-        watchContentBase: true,
         host: "0.0.0.0",
         port: 9999,
         inline: true,
@@ -42,4 +39,5 @@ module.exports = {
         compress: true,
         historyApiFallback: true
     }
+};
 }
