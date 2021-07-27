@@ -1,7 +1,7 @@
 {
-  "name": "ex07",
+  "name": "ex01",
   "version": "1.0.0",
-  "description": "1. 프로젝트 생성\r     ```bash\r     $ mkdir ex07\r     $ cd ex07\r     $ npm init -y\r     $ npm i -D webpack webpack-cli webpack-dev-server babel-loader @babel/core @babel/preset-env @babel/preset-react\r     $ npm i react react-dom\r     ```\r 2. 프로젝트 디렉토리\r     <pre>\r       /ex07\r         |--- package.json\r         |--- package-lock.json\r         |--- node-modules\r         |--- public\r         |       |--- index.html\r         |       |--- bundle.js    [빌드결과물]\r         |--- src",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "npx webpack",
