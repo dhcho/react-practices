@@ -1,10 +1,12 @@
 const path = require('path');
 
 module.exports = {
+    mode: 'none',
     entry: path.resolve('src/index.js'),
     output: {
         path: path.resolve('public'),
-        filename: 'bundle.js'
+        filename: 'bundle.js',
+        assetModuleFilename: 'assets/images/[has][ext]'
     },
     module: {
         rules:[{

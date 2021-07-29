@@ -1,11 +1,12 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import GuestbookForm from './GuestbookForm';
 import GuestbookList from './GuestbookList';
-import list from './data.json';
+import list from './assets/json/data.json';
+import styles from './assets/css/Guestbook.css';
 
 export default function Guestbook() {
     return (
-        <div className={'Guestbook'}>
+        <div className={ styles.Guestbook }>
             <h1>방명록</h1>
             <GuestbookForm />
             <GuestbookList key="Guestbook" lists={list}/>

@@ -1,27 +1,23 @@
 const path = require('path');
 
 module.exports = {
+    mode: 'none',
     entry: path.resolve('src/index.js'),
     output: {
         path: path.resolve('public'),
-        filename: 'bundle.js'
+        filename: 'bundle.js',
+        assetModuleFilename: 'assets/images/[hash][ext]'
     },
     module: {
         rules: [{
-            test: /\.css$/i,
-            use:['style-loader', 'css-loader']
+            test: /\.(png|gif|jpg?g|svg|ico|tiff?|bmp)$/i,
+            type: 'asset/resource'
         }, {
-            test: /\.s[ac]ss$/i,
-            use: ['style-loader', 'css-loader', 'sass-loader']
-        }, {
-            test: /\.svg$/i,
-            loader: 'file-loader',
-            options: {
-                outputPath: '/assets/images',
-                name: '[name].[ext]'
-            }
+            test: /\.(sa|sc|c)ss$/i,
+            use:['style-loader', 'css-loader', 'sass-loader']
         }]
     },
+    devtool: "eval-source-map",
     devServer: {
         contentBase: path.resolve('public'),
         host: "0.0.0.0",

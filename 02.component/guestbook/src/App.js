@@ -1,8 +1,11 @@
 import React from 'react';
 import Guestbook from './Guestbook'
+import styles from './assets/css/App.css';
 
 export default function App() {
     return (
-        <Guestbook />
+        <div className={ styles.App }>
+            <Guestbook />
+        </div>
     );
 }
