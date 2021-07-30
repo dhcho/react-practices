@@ -4,8 +4,10 @@ import styles from './assets/css/App.css';
 
 export default function App() {
     return (
-        <div className={ styles.App }>
-            <Guestbook />
+        <div className={'App'}>
+            <div>
+                <Guestbook />
+            </div>
         </div>
     );
 }
