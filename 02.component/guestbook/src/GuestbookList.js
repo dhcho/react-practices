@@ -1,6 +1,6 @@
 import React from 'react';
 import GuestbookItem from './GuestbookListItem';
-import styles from './assets/css/GuestbookList.css';
+import styles from './assets/scss/GuestbookList.scss';
 
 export default function GuestbookList({ lists }) {
     return (

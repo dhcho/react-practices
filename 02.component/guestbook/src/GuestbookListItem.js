@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './assets/css/GuestbookListItem.css';
+import styles from './assets/scss/GuestbookListItem.scss';
 
 export default function GuestbookItem({ no, name, message, regDate }) {
     return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './assets/css/GuestbookForm.css'
+import styles from './assets/scss/GuestbookForm.scss'
 
 export default function GuestbookForm({}) {
     return (
