@@ -26,9 +26,26 @@
     - src/03 비제어 컴포넌트
 
 
-### 03. 비제어 컴포넌트(Anti-Pattern)
-### 04. 상태(Stateful) 컴포넌트 vs 순수(Pure, Dumb) Component
-### 05. Data Flow(Bottom-up)
+### 03. 상태(Stateful) 컴포넌트 vs 순수(Pure, Dumb) Component
+1.  Stateful Component
+    - 상태(state)를 관리하는 컴포넌트
+    - 보통 상태를 관리하는 컴포넌트 계층에서 상위에 있다.
+    - 상태 컴포넌트는 순수 컴포넌트를 하나 이상 래핑할 수 있다.
+2.  Pure Component
+    - 상태 관리없이 속성(props)로 화면만 렌더링 하는 컴포넌트다.
+    - 재사용이 용이, 테스트하기도 좋다.
+3.  애플리케이션의 컴포넌트들은 상태 컴포넌트와 순수 컴포넌트로 분리하여 만드는 것이 좋다.
+4.  어떤 컴포넌트가 상태 컴포넌트인가요?
+    - 상태를 기반으로 렌더링하는 컴포넌트
+    - 많은 하위 컴포넌트를 가지고 있는 공통(하나)의 상위 컴포넌트
+    - 컴포넌트 hierachy에서 상위에 있고 상태를 가져야만 하는 컴포넌트
+    - 못찾겠으면, 상태를 관리하는 컴포넌트를 만들고 하위(pure) 컴포넌트를 래핑한다.
+5.  예제(emaillist): src/04
+
+### 04. Data Flow(Bottom-up)
+1.  리액트 애플리케이션에서의 데이터는 컴포넌트 계층 상위->하위(Top-Down)로 props 전달이 기본 data flow 메카니즘이다.
+2.  하지만 거의 모든 애플리케이션에서는 하위->상위(Bottom-Up)로 데이터를 전달해야 하는 경우가 반드시 있다.
+3.  예제(emaillist): src/04: props로 전달한 callback 함수를 사용하는 방법
 
 ### Run Examples
 ```bash
