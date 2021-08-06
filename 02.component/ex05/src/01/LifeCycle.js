@@ -84,7 +84,7 @@ export default class LifeCycle extends Component {
      * componentDidMount에서 등록한 이벤트, 타이머, 직접 생성한 DOM 엘리멘트등을 제거(Clean-Up)
      * 작업을 한다.
      */
-    ComponentWillUnmount() {
+    componentWillUnMount() {
         console.log(`[MOUNT04]: componentDidMount()`);
     }
 }

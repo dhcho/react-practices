@@ -10,10 +10,10 @@
     - shouldComponentUpdate: state가 변경되었을 때, 렌더링 여부를 결정한다.(최적화)
     - render
     - getSnapshotBeforeUpdate: render 메소드 호출 후, DOM에 변화를 반영하기 직전에 호출[react V16.3]
-    - ComponentDidUpdate: DOM 업데이트가 끝난 직후, DOM 작업이 가능하다.
+    - componentDidUpdate: DOM 업데이트가 끝난 직후, DOM 작업이 가능하다.
 
 3.  Unmount LifeCycle
-    - ComponentWillUnmount: 컴포넌트를 DOM에서 사라질 때
+    - componentWillUnmount: 컴포넌트를 DOM에서 사라질 때
 
 4.  예제: src/01
 
@@ -21,4 +21,4 @@
 1.  Alternative 1: getDerivedStateFromProps
 2.  After Rendering 함수(상태에 변화 -> 렌더링 -> 함수)
 3.  어떤 특정 상태의 변화에 반응하는 After Rendering 함수 (어떤 특정 상태값이 변화 -> 렌더링 -> 함수)
-4.  Alternative 2: componentDidMound & componentWillUnMound
+4.  Alternative 2: componentDidMound & componentWillUnmount
