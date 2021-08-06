@@ -3,6 +3,7 @@ import React, { Component, useState } from 'react';
 export default class LifeCycle extends Component {
     constructor() {
         super(...arguments);
+        this.h4Ref = null;
         this.state = {
             color: null
         }
@@ -13,19 +14,57 @@ export default class LifeCycle extends Component {
      * props로 받아온 값을 state에 동기화한다.[react V16.3]
      */
     static getDerivedStateFromProps(nextProps, prevState) {
-        console.log(`[MOUNT02][UPDATE01]: getDerivedStateFromProps(${nextProps}, ${prevState})`);
+        console.log(`[MOUNT02][UPDATE01]: getDerivedStateFromProps(${nextProps.color}, ${prevState.color})`);
         return nextProps.color !== prevState.color ? {color: nextProps.color} : null
+    }
+
+    /**
+     * state가 변경되었을 때, re-rendering 여부를 결정한다.
+     * 현재 데이터: this.props, this.state
+     * 변경될 데이터: nextProps, nextState
+     * 로 접근이 가능하다.
+     * 
+     * 컴포넌트 성능 최적화(튜닝)에 사용할 수 있다.
+     */
+    shouldComponentUpdate(nextProps, nextState) {
+        console.log(`[UPDATE02]: shouldComponentUpdate(${nextProps.color}, ${nextState})`);
+        return true;
     }
 
     render() {
         console.log(`[MOUNT03][UPDATE03]: render()`);
         return (
-            <h3 style={ {
-                width: 300,
-                height: 50,
-                backgroundColor: this.state.color
-            } }/>
+            <h3 
+                style={ {
+                    width: 300,
+                    height: 50,
+                    backgroundColor: this.state.color
+            } }
+            ref={ ref => this.h3Ref = ref }
+            />
         )
+    }
+
+    /**
+     * render 메소드 호출 직후, DOM에 변화를 반영하기 직전에 호출[v16.3]
+     * 반환 값은 다음 메소드 componentDidUpdate()의 세번째 파라미터(snapshot)로 전달
+     * 변경 전의 props, state 접근이 가능하다.
+     * 주로 업데이트 직전의 값을 참고해서 할 일이 있을 때 오버라이딩을 한다.
+     */
+    getSnapshotBeforeUpdate(prevProps, prevState) {
+        console.log(`[UPDATE04]: getSnapshotBeforeUpdate(prevProps=${prevProps.color}, prevState=${prevState.color})`);
+        return prevProps.color !== this.state.color ? this.h3Ref.style.backgroundColor : null;
+    }
+
+    /**
+     * DOM 업데이트가 끝난 직후, DOM 작업이 가능하다.
+     * 변경 전의 props, state 접근이 가능하다.
+     * 
+     */
+    componentDidUpdate(prevProps, prevState, snapshot) {
+        // const hexColor =
+        //   "10, 20, 30" -> [10, 20, 30]  -> reduce( '#' -> '#0a' -> #0af5' -> '#0xf5ee' )
+        console.log(`[UPDATE05]: ComponentDidUpdate(prevProps=${prevProps.color}, prevState=${prevState.color}, snapshot=${snapshot})`);
     }
 
     /**
@@ -37,6 +76,15 @@ export default class LifeCycle extends Component {
      * 등을 할 수 있다.
      */
     componentDidMount() {
+        console.log(`[MOUNT04]: componentDidMount()`);
+    }
+
+    /**
+     * 컴포넌트를 DOM에서 제거할 때
+     * componentDidMount에서 등록한 이벤트, 타이머, 직접 생성한 DOM 엘리멘트등을 제거(Clean-Up)
+     * 작업을 한다.
+     */
+    ComponentWillUnmount() {
         console.log(`[MOUNT04]: componentDidMount()`);
     }
 }
