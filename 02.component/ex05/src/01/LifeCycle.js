@@ -62,9 +62,10 @@ export default class LifeCycle extends Component {
      * 
      */
     componentDidUpdate(prevProps, prevState, snapshot) {
-        // const hexColor =
-        //   "10, 20, 30" -> [10, 20, 30]  -> reduce( '#' -> '#0a' -> #0af5' -> '#0xf5ee' )
-        console.log(`[UPDATE05]: ComponentDidUpdate(prevProps=${prevProps.color}, prevState=${prevState.color}, snapshot=${snapshot})`);
+        const hexCallback = ( acc, cur ) => acc + ((parseInt(cur).toString(16).length) == 1 ? "0" + parseInt(cur).toString(16) : parseInt(cur).toString(16));
+        const hexColor = snapshot.replace("rgb", "").slice(1, -1).split(",").reduce(hexCallback, '#');
+        // "10, 20, 30" -> [10, 20, 30]  -> reduce( '#' -> '#0a' -> #0af5' -> '#0xf5ee' )
+        console.log(`[UPDATE05]: ComponentDidUpdate(prevProps=${prevProps.color}, prevState=${prevState.color}, snapshot=${hexColor})`);
     }
 
     /**
