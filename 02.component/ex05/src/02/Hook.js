@@ -29,10 +29,10 @@ export default function Hook({ color }) {
     }, [boxColor]);
 
     /**
-     * 4. Alternative 02: componentDidMound & componentWillUnMound
+     * 4. Alternative 02: componentDidMount & componentWillUnMount
      */
     useEffect(() => {
-        console.log('After Mound(componentDidMount');
+        console.log('After Mount(componentDidMount');
         return (function(){
             console.log('After Unmound(componentWillUnmount');
         });
