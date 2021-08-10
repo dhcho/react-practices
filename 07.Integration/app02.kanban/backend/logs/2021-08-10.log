@@ -1,0 +1,64 @@
+2021-08-10 12:16:50 info: Listening on port 8888
+2021-08-10 12:24:27 info: Listening on port 8888
+2021-08-10 12:24:38 info: Listening on port 8888
+2021-08-10 12:26:32 info: Listening on port 8888
+2021-08-10 12:26:44 error: ReferenceError: C:\vscode-projects\react-practices\07.Integration\app02.kanban\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode-projects\react-practices\07.Integration\app02.kanban\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode-projects\react-practices\07.Integration\app02.kanban\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode-projects\react-practices\07.Integration\app02.kanban\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode-projects\react-practices\07.Integration\app02.kanban\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode-projects\react-practices\07.Integration\app02.kanban\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode-projects\react-practices\07.Integration\app02.kanban\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode-projects\react-practices\07.Integration\app02.kanban\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode-projects\react-practices\07.Integration\app02.kanban\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode-projects\react-practices\07.Integration\app02.kanban\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode-projects\react-practices\07.Integration\app02.kanban\node_modules\express\lib\router\layer.js:95:5)
+2021-08-10 12:47:32 info: Listening on port 8888
+2021-08-10 13:32:17 error: ReferenceError: C:\vscode-projects\react-practices\07.Integration\app02.kanban\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode-projects\react-practices\07.Integration\app02.kanban\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode-projects\react-practices\07.Integration\app02.kanban\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode-projects\react-practices\07.Integration\app02.kanban\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode-projects\react-practices\07.Integration\app02.kanban\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode-projects\react-practices\07.Integration\app02.kanban\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode-projects\react-practices\07.Integration\app02.kanban\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode-projects\react-practices\07.Integration\app02.kanban\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode-projects\react-practices\07.Integration\app02.kanban\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode-projects\react-practices\07.Integration\app02.kanban\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode-projects\react-practices\07.Integration\app02.kanban\node_modules\express\lib\router\layer.js:95:5)
+2021-08-10 13:39:53 error: ReferenceError: C:\vscode-projects\react-practices\07.Integration\app02.kanban\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode-projects\react-practices\07.Integration\app02.kanban\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode-projects\react-practices\07.Integration\app02.kanban\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode-projects\react-practices\07.Integration\app02.kanban\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode-projects\react-practices\07.Integration\app02.kanban\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode-projects\react-practices\07.Integration\app02.kanban\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode-projects\react-practices\07.Integration\app02.kanban\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode-projects\react-practices\07.Integration\app02.kanban\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode-projects\react-practices\07.Integration\app02.kanban\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode-projects\react-practices\07.Integration\app02.kanban\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode-projects\react-practices\07.Integration\app02.kanban\node_modules\express\lib\router\layer.js:95:5)
+2021-08-10 14:59:41 info: Listening on port 8888
+2021-08-10 15:57:35 info: Listening on port 8888

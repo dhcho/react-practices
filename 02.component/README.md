@@ -5,3 +5,4 @@
 ### ex03: React Event                                       - Kanban Board #3, #4(PropsType)
 ### ex04: State : Controlled VS Uncontrolled Component, Stateful and Pure Component, Data Flow (Data Flow: Down->Top)
 ### ex05: Component Lifecycle
+### ex06: Immutability(불변성) of Component's State
