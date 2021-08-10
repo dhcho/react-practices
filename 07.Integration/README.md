@@ -46,6 +46,10 @@
     - Frontend: React(SPA)
     - AJAX: fetch 기반
 2.  app02.kanban
+    - 개발 통합 설정(with Node Backend)
+    - backend: Fully APIs(Node Express기반)
+    - Frontend: React(SPA)
+    - AJAX: fetch 기반
 3.  app03.guestbook
 4.  app04.gallery
 5.  app05.mysite
