@@ -8,8 +8,11 @@ export default function TaskList({ cardNo, tasks, notifyTask }) {
         <div className={ styles.TaskList }>
               <ul>
                 { tasks.map(task => <Task 
-                                        key={ task.no } 
-                                        name={ task.name } /> )}
+                                        key={ task.no }
+                                        cardNo={ cardNo }
+                                        taskNo={ task.no }
+                                        name={ task.name }
+                                        notifyTask={ notifyTask } /> )}
               </ul>
               <input 
                 type='text'

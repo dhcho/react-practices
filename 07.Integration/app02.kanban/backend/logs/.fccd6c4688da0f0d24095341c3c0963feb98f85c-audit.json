@@ -1,0 +1,14 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "C:\\vscode_workspace\\react-practices\\07.Integration\\app02.kanban\\backend\\logs\\.fccd6c4688da0f0d24095341c3c0963feb98f85c-audit.json",
+    "files": [
+        {
+            "date": 1628596109414,
+            "name": "C:\\vscode_workspace\\react-practices\\07.Integration\\app02.kanban\\backend\\logs\\2021-08-10.log",
+            "hash": "f16590811c8164b9b29c2646a98e8bd1"
+        }
+    ]
+}

@@ -15,5 +15,7 @@ module.exports = {
         } 
     },
     insertTask: async function() {
+    },
+    deleteTask: async function() {
     }
 }

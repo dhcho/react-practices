@@ -33,5 +33,22 @@ module.exports = {
         } catch(err) {
             next(err);
         }
+    },
+    deleteTask: async function(req, res, next) {
+        try {
+            const cardNo = req.params['cardNo'];
+            const taskNo = req.params['taskNo'];
+
+            // model.deleteTask(...) 성공했다 치고~
+            res
+                .status(200)
+                .send({
+                    result: 'success',
+                    message: null
+                });
+        } catch(err) {
+            next(err);
+        }
     }
+
 }
