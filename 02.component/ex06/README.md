@@ -58,8 +58,3 @@ emails.push({});
             4) $set * [속성 변경]
             5) $merge
             6) apply
-            
-```javascript
-
-```
-### How IV
