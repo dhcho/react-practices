@@ -1,40 +1,119 @@
-import React, { Fragment } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { fab } from '@fortawesome/free-brands-svg-icons';
-import { faBell as farBell } from '@fortawesome/free-regular-svg-icons';
-import { faBell, faCheckCircle, faTimesCircle } from '@fortawesome/free-solid-svg-icons';
+import React, { Fragment, useState } from 'react';
+import Modal from "react-modal";
+import ReactModal from "react-modal";
+import styles from './modal.scss';
+
+ReactModal.setAppElement('body');
 
 export default function App() {
-    library.add(farBell, faBell, fab);
+    const [modal01IsOpen, setModal01IsOpen] = useState(false);
+    const [modal02IsOpen, setModal02IsOpen] = useState(false);
+    const [modal03IsOpen, setModal03IsOpen] = useState(false);
+    const [modal04IsOpen, setModal04IsOpen] = useState(false);
+    const [modal05IsOpen, setModal05IsOpen] = useState(false);
+
+    const handleClose = function() {
+        setModal02IsOpen(false);
+    };
 
     return (
         <Fragment>
-            <h2>React Awesome Font Examples</h2>
 
-            {/* regular */}
-            <FontAwesomeIcon icon={ farBell } />
-            <FontAwesomeIcon icon={ ["far", "bell"] } />
 
-            {/* solid */ }
-            <FontAwesomeIcon icon={ faBell } />
-            <FontAwesomeIcon icon={ ["far", "bell"] } />
+            {/* example modal01: Minimal */}
+            <button onClick={ () => setModal01IsOpen(true) }>modal01</button>
+            <br/><br/>
+            <Modal
+                isOpen={modal01IsOpen}
+                contentLabel="modal01 example">
+                <h1>modal01</h1>
+                <button onClick={ () => setModal01IsOpen(false) }>
+                    Close
+                </button>
+            </Modal>
 
-            {/* brands */}
-            <FontAwesomeIcon icon={ ["fab", "github"] } />
-            <FontAwesomeIcon icon={ ["fab", "apple"] } />
-            <FontAwesomeIcon icon={ ["fab", "google"] } />
 
-            {/* size */}
-            <FontAwesomeIcon icon={ faBell } size='xs'/>
-            <FontAwesomeIcon icon={ faBell } size='lg'/>
-            <FontAwesomeIcon icon={ faBell } size='2x'/>
-            <FontAwesomeIcon icon={ faBell } size='3x'/>
-            <FontAwesomeIcon icon={ faBell } size='4x'/>
 
-            {/* etc */}
-            <FontAwesomeIcon icon={ faCheckCircle } style={ {color: 'blue'} } />
-            <FontAwesomeIcon icon={ faTimesCircle } style={ {color: 'red'} } />
+            {/* example modal02: Using onRequestClose */}
+            <button onClick={ () => setModal02IsOpen(true) }>modal02</button>
+            <br/><br/>
+            <Modal
+                isOpen={modal02IsOpen}
+                onRequestClose={ handleClose }
+                contentLabel="modal02 example">
+                <h1>modal02</h1>
+                <button onClick={ handleClose }>
+                    Close
+                </button>
+            </Modal>
+
+
+
+            {/* example modal03: Using shouldCloseOnOverlayClick */}
+            <button onClick={ () => setModal03IsOpen(true) }>modal03</button>
+            <br/><br/>
+            <Modal
+                isOpen={modal03IsOpen}
+                onRequestClose={ () => setModal03IsOpen(false) }
+                shouldCloseOnOverlayClick={ false }
+                contentLabel="modal03 example">
+                <h1>modal03</h1>
+                <button onClick={ () => setModal03IsOpen(false) }>
+                    Close
+                </button>
+            </Modal>
+
+
+
+            {/* example modal04: Using inline styles */}
+            <button onClick={ () => setModal04IsOpen(true) }>modal04</button>
+            <br/><br/>
+            <Modal
+                isOpen={modal04IsOpen}
+                onRequestClose={ () => setModal04IsOpen(false) }
+                shouldCloseOnOverlayClick={ true }
+                style={{
+                    overlay: {
+                        backgroundColor: 'rgba(0, 0, 0, 0.5)'
+                    },
+                    content: {
+                        backgroundColor: '#ccc'
+                    }
+                }}
+                contentLabel="modal04 example">
+                <h1>modal04</h1>
+                <button onClick={ () => setModal04IsOpen(false) }>
+                    Close
+                </button>
+            </Modal>
+
+
+
+            {/* example modal05: Using css/scss */}
+            <button onClick={ () => setModal05IsOpen(true) }>modal05</button>
+            <br/><br/>
+
+            <Modal
+                isOpen={modal05IsOpen}
+                onRequestClose={ () => setModal05IsOpen(false) }
+                shouldCloseOnOverlayClick={ true }
+                className={ styles.Modal }
+                overlayClassName={ styles.Overlay }
+                style={ {content: {width: 350}} }
+                contentLabel="modal05 example">
+                <h1>비밀번호입력</h1>
+                <div>
+                        <label>작성시 입력했던 비밀번호를 입력하세요.</label>
+                        <br/><br/>
+                        <inpupt type='text' />
+                </div>
+                <div className={ styles['modal-dialog-buttons'] }>
+                    <button>확인</button>
+                    <button onClick={ () => setModal05IsOpen(false) }>취소</button>
+                </div>
+            </Modal>
+
+
         </Fragment>
     );
 }
