@@ -1,6 +1,6 @@
 import React, {useRef} from 'react';
 import Guestbook from './Guestbook'
-import styles from './assets/scss/App.scss';
+import './assets/scss/App.scss';
 
 export default function App() {
     const outterRef = useRef(null);
