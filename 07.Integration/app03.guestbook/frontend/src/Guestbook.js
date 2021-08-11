@@ -25,25 +25,27 @@ export default function Guestbook() {
             }
 
             setGuestbook(json.data);
+            console.log(json.data);
         } catch(err){
             console.error(err);
         }
     }, []);
 
     const notifyTask = {
-        add: async function(cardNo, taskName){
+        add: async function(name, password, content){
             try {
-                const url = `/api/card/${cardNo}/task`;
-                const task = {
+                const url = `/api/add`;
+                const guestbook = {
                     no: null,
-                    name: taskName,
-                    done: false
+                    name: name,
+                    password: password,
+                    content: content
                 }
 
                 const response = await fetch(url, {
                     method:'post',
                     headers:{'Content-Type': 'application/json'},
-                    body: JSON.stringify(task)
+                    body: JSON.stringify(guestbook)
                 });
 
                 if(!response.ok) {
@@ -54,28 +56,25 @@ export default function Guestbook() {
                 if(json.result !== 'success') {
                     throw new Error(`${json.result} ${json.message}`);
                 }
-
-                const cardIndex = cards.findIndex((card) => card.no === cardNo);
-
-                const newCards = update(cards, {
-                    [cardIndex]: {
-                        tasks: {
-                            $push: [json.data]
-                        }
-                    }
-                });
-
-                setCards(newCards);
             } catch(err) {
                 console.error(err);
             }
         },
-        delete: async function(cardNo, taskNo){
+        delete: async function(no, password){
             try {
-                const url = `/api/card/${cardNo}/${taskNo}`;
+                const url = `/api/delete`;
+                const guestbook = {
+                    no: no,
+                    password: password
+                }
+
+                console.log(guestbook);
+                console.log("TEST");
 
                 const response = await fetch(url, {
-                    method:'delete'
+                    method:'delete',
+                    headers:{'Content-Type': 'application/json'},
+                    body: JSON.stringify(guestbook)
                 });
 
                 if(!response.ok) {
@@ -86,19 +85,6 @@ export default function Guestbook() {
                 if(json.result !== 'success') {
                     throw new Error(`${json.result} ${json.message}`);
                 }
-
-                const cardIndex = cards.findIndex((card) => card.no === cardNo);
-                const taskIndex = cards[cardIndex].tasks.findIndex((task) => task.no === taskNo);
-
-                const newCards = update(cards, {
-                    [cardIndex]: {
-                        tasks: {
-                            $splice: [[taskIndex, 1]]
-                        }
-                    }
-                });
-
-                setCards(newCards);
             } catch(err) {
                 console.error(err);
             }
@@ -108,8 +94,11 @@ export default function Guestbook() {
     return (
         <div className={ styles.Guestbook }>
             <h1>방명록</h1>
-            <GuestbookForm />
-            <GuestbookList key="Guestbook" lists={ guestbook }/>
+            <GuestbookForm notifyTask={ notifyTask } />
+            <GuestbookList 
+                key="Guestbook" 
+                lists={ guestbook }
+                notifyTask={ notifyTask } />
         </div>
     );
 }

@@ -1,0 +1,963 @@
+2021-08-11 21:25:05 error: Error: Failed to lookup view "error/404" in views directory "C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views"
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:317:13)
+    at C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:275:10)
+    at C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:635:15
+    at next (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:260:14)
+2021-08-11 21:25:05 error: Error: Failed to lookup view "error/404" in views directory "C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views"
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:317:13)
+    at C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:275:10)
+    at C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:635:15
+    at next (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:260:14)
+2021-08-11 21:25:05 error: Error: Failed to lookup view "error/404" in views directory "C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views"
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:317:13)
+    at C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:275:10)
+    at C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:635:15
+    at next (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:260:14)
+2021-08-11 21:25:05 error: Error: Failed to lookup view "error/404" in views directory "C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views"
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:317:13)
+    at C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:275:10)
+    at C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:635:15
+    at next (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:260:14)
+2021-08-11 21:25:05 error: Error: Failed to lookup view "error/404" in views directory "C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views"
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:317:13)
+    at C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:275:10)
+    at C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:635:15
+    at next (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:260:14)
+2021-08-11 21:32:35 error: Error: Failed to lookup view "error/404" in views directory "C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views"
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:317:13)
+    at C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:275:10)
+    at C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:635:15
+    at next (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:260:14)
+2021-08-11 21:32:35 error: Error: Failed to lookup view "error/404" in views directory "C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views"
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:317:13)
+    at C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:275:10)
+    at C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:635:15
+    at next (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:260:14)
+2021-08-11 21:32:35 error: Error: Failed to lookup view "error/404" in views directory "C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views"
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:317:13)
+    at C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:275:10)
+    at C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:635:15
+    at next (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:260:14)
+2021-08-11 21:32:35 error: Error: Failed to lookup view "error/404" in views directory "C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views"
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:317:13)
+    at C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:275:10)
+    at C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:635:15
+    at next (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:260:14)
+2021-08-11 21:32:35 error: Error: Failed to lookup view "error/404" in views directory "C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views"
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:317:13)
+    at C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:275:10)
+    at C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:635:15
+    at next (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:260:14)
+2021-08-11 21:32:43 error: Error: Failed to lookup view "error/404" in views directory "C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views"
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:317:13)
+    at C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:275:10)
+    at C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:635:15
+    at next (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:260:14)
+2021-08-11 21:32:43 error: Error: Failed to lookup view "error/404" in views directory "C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views"
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:317:13)
+    at C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:275:10)
+    at C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:635:15
+    at next (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:260:14)
+2021-08-11 21:32:43 error: Error: Failed to lookup view "error/404" in views directory "C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views"
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:317:13)
+    at C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:275:10)
+    at C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:635:15
+    at next (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:260:14)
+2021-08-11 21:32:43 error: Error: Failed to lookup view "error/404" in views directory "C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views"
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:317:13)
+    at C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:275:10)
+    at C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:635:15
+    at next (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:260:14)
+2021-08-11 21:32:43 error: Error: Failed to lookup view "error/404" in views directory "C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views"
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:317:13)
+    at C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:275:10)
+    at C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:635:15
+    at next (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\index.js:260:14)
+2021-08-11 21:36:12 error: ReferenceError: C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+2021-08-11 21:36:12 error: ReferenceError: C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+2021-08-11 21:36:12 error: ReferenceError: C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+2021-08-11 21:36:12 error: ReferenceError: C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+2021-08-11 21:36:12 error: ReferenceError: C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+2021-08-11 21:41:42 error: ReferenceError: C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+2021-08-11 21:41:42 error: ReferenceError: C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+2021-08-11 21:41:42 error: ReferenceError: C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+2021-08-11 21:41:42 error: ReferenceError: C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+2021-08-11 21:41:42 error: ReferenceError: C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+2021-08-11 21:45:20 error: ReferenceError: C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+2021-08-11 21:45:20 error: ReferenceError: C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+2021-08-11 21:45:20 error: ReferenceError: C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+2021-08-11 21:45:20 error: ReferenceError: C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+2021-08-11 21:45:20 error: ReferenceError: C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+2021-08-11 21:45:25 error: ReferenceError: C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+2021-08-11 21:45:25 error: ReferenceError: C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+2021-08-11 21:45:26 error: ReferenceError: C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+2021-08-11 21:45:26 error: ReferenceError: C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+2021-08-11 21:45:26 error: ReferenceError: C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+2021-08-11 21:45:33 error: ReferenceError: C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+2021-08-11 21:45:33 error: ReferenceError: C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+2021-08-11 21:45:33 error: ReferenceError: C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+2021-08-11 21:45:33 error: ReferenceError: C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+2021-08-11 21:45:33 error: ReferenceError: C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+2021-08-11 22:47:45 error: ReferenceError: C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+2021-08-11 22:47:45 error: ReferenceError: C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+2021-08-11 22:47:45 error: ReferenceError: C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+2021-08-11 22:47:45 error: ReferenceError: C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+2021-08-11 22:47:45 error: ReferenceError: C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+2021-08-11 22:48:12 error: ReferenceError: C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+2021-08-11 23:09:44 error: ReferenceError: C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+2021-08-11 23:09:44 error: ReferenceError: C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+2021-08-11 23:09:44 error: ReferenceError: C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+2021-08-11 23:09:44 error: ReferenceError: C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+2021-08-11 23:09:44 error: ReferenceError: C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+2021-08-11 23:09:48 error: ReferenceError: C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+2021-08-11 23:09:48 error: ReferenceError: C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+2021-08-11 23:09:48 error: ReferenceError: C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+2021-08-11 23:09:48 error: ReferenceError: C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+2021-08-11 23:09:48 error: ReferenceError: C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)
+2021-08-11 23:10:05 error: ReferenceError: C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\views\error\404.ejs:12
+    10| 			<h1>500: Inteneral Server error</h1>
+    11| 			<pre>
+ >> 12| 				<%=error%>
+    13| 			</pre>
+    14| 		</div>
+    15| 	</div>
+
+error is not defined
+    at eval (eval at compile (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:12:25)
+    at 404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\response.js:1012:7)
+    at error404 (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (C:\vscode_workspace\react-practices\07.Integration\app03.guestbook\node_modules\express\lib\router\layer.js:95:5)

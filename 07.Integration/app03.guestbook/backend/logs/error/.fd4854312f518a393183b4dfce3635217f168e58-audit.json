@@ -1,0 +1,14 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "C:\\vscode_workspace\\react-practices\\07.Integration\\app03.guestbook\\backend\\logs\\error\\.fd4854312f518a393183b4dfce3635217f168e58-audit.json",
+    "files": [
+        {
+            "date": 1628684021267,
+            "name": "C:\\vscode_workspace\\react-practices\\07.Integration\\app03.guestbook\\backend\\logs\\error\\2021-08-11.error.log",
+            "hash": "128d8190344fb66d5f990a390d79db8a"
+        }
+    ]
+}

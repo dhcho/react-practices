@@ -28,6 +28,7 @@
     "react": "^17.0.2",
     "react-addons-update": "^15.6.3",
     "react-dom": "^17.0.2",
+    "react-modal": "^3.14.3",
     "winston": "^3.3.3",
     "winston-daily-rotate-file": "^4.5.5"
   },

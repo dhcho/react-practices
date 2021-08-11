@@ -33,12 +33,7 @@ module.exports = {
     add: async function(req, res){
         try {
             const results = await model.insert(req.body);
-            res.status(200)
-               .send({
-                   result: 'success',
-                   data: results,
-                   message: null
-               });
+            res.redirect("/");
         } catch(err) {
             next(err);
         }
@@ -49,7 +44,11 @@ module.exports = {
         });
     },
     delete: async function(req, res){
-        const results = await model.delete(req.body);
-        res.redirect("/");
+        try {
+            const results = await model.delete(req.body);
+            res.redirect("/");
+        } catch(err) {
+            next(err);
+        }
     }
 }

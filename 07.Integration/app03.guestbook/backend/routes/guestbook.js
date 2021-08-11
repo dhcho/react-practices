@@ -7,6 +7,6 @@ router.route('/searchIndex').get(controller.findIndex);
 router.route('/add').get(controller.form);
 router.route('/add').post(controller.add);
 router.route('/deleteform/:no').get(controller.deleteform);
-router.route('/delete').post(controller.delete);
+router.route('/delete').delete(controller.delete);
 
 module.exports = router;
