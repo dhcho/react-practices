@@ -24,7 +24,7 @@ export default function App() {
                     throw new Error(`${json.result} ${json.message}`);
                 }
 
-                const cardIndex = cards.findIndex((card) => card.no === cardNo);
+                const guestbookIndex = cards.findIndex((card) => card.no === cardNo);
 
                 const newCards = update(cards, {
                     [cardIndex]: {

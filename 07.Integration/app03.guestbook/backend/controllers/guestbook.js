@@ -46,7 +46,12 @@ module.exports = {
     delete: async function(req, res){
         try {
             const results = await model.delete(req.body);
-            res.redirect("/");
+            res.status(200)
+            .send({
+                result: 'success',
+                data: results || [],
+                message: null
+            });
         } catch(err) {
             next(err);
         }

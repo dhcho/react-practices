@@ -7,6 +7,7 @@ export default function GuestbookList({ lists, notifyTask }) {
         <ul className={ styles.Guestbook__List }>
             { lists.map(list => <GuestbookItem 
                                     key={ list.no } 
+                                    no={ list.no }
                                     name={ list.name }
                                     message={ list.message }
                                     regDate={ list.regDate }

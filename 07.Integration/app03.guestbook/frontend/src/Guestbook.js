@@ -25,7 +25,6 @@ export default function Guestbook() {
             }
 
             setGuestbook(json.data);
-            console.log(json.data);
         } catch(err){
             console.error(err);
         }
@@ -63,18 +62,15 @@ export default function Guestbook() {
         delete: async function(no, password){
             try {
                 const url = `/api/delete`;
-                const guestbook = {
+                const data = {
                     no: no,
                     password: password
                 }
 
-                console.log(guestbook);
-                console.log("TEST");
-
                 const response = await fetch(url, {
                     method:'delete',
                     headers:{'Content-Type': 'application/json'},
-                    body: JSON.stringify(guestbook)
+                    body: JSON.stringify(data)
                 });
 
                 if(!response.ok) {
@@ -85,6 +81,14 @@ export default function Guestbook() {
                 if(json.result !== 'success') {
                     throw new Error(`${json.result} ${json.message}`);
                 }
+
+                const guestbookIndex = guestbook.findIndex((element) => element.no === no);
+
+                const newGuestbook = update(guestbook, {
+                    $splice: [[guestbookIndex, 1]]
+                });
+
+                setGuestbook(newGuestbook);
             } catch(err) {
                 console.error(err);
             }
