@@ -6,7 +6,7 @@ module.exports = (env) => ({
     output: {
         path: path.resolve('backend/public'),
         filename: 'assets/js/main.js',
-        assetModuleFilename: 'assets/images/[hash][ext]'
+        assetModuleFilename: 'images/[hash][ext]'
     },
     module: {
         rules: [{
@@ -16,7 +16,7 @@ module.exports = (env) => ({
             test: /\.(sa|sc|c)ss$/i,
             use: [
                 'style-loader',
-                { loader: 'css-loader', options: { modules: true } },
+                {loader: 'css-loader', options: {modules: true}},
                 'sass-loader'
             ]
         }, {
@@ -35,7 +35,8 @@ module.exports = (env) => ({
         host: "0.0.0.0",
         port: 9999,
         proxy: {
-            '/api': 'http://localhost:8888'
+            '/api': 'http://localhost:8888',
+            '/assets/upload-images': 'http://localhost:8888'
         },
         inline: true,
         liveReload: true,

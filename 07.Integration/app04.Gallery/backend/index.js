@@ -25,14 +25,14 @@
     const application = express()
         // 6-1. Session Environment
         .use(session({
-            secret: 'emaillist-session',
+            secret: 'gallery-session',
             resave: false,
             saveUninitialized: false
         }))
         // 6-2. Body Parsers
         .use(express.json())
         .use(express.urlencoded({extended: true}))
-        // 6-3. Multipart
+        // 6-3. Multer
         .use(multer({dest: path.join(__dirname, process.env.MULTER_TEMPORARY_STORE)}).single('file'))
         // 6-4. Static
         .use(express.static(path.join(__dirname, process.env.STATIC_RESOURCES_DIRECTORY)))

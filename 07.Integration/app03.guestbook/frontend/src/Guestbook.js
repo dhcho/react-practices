@@ -1,108 +1,104 @@
-import React, { useState, useEffect } from 'react';
-import update from 'react-addons-update';
-import GuestbookForm from './GuestbookForm';
-import GuestbookList from './GuestbookList';
-import list from './assets/json/data.json';
+import React, {useEffect, useState, useRef} from 'react';
+import WriteForm from './WriteForm';
+import MessageList from './MessageList';
 import styles from './assets/scss/Guestbook.scss';
 
 export default function Guestbook() {
-    const [guestbook, setGuestbook] = useState([]);
+    let isFetching = false;
+    const outterRef = useRef(null);
+    const innerRef = useRef(null);
+    const [messages, setMessages] = useState([]);
 
-    useEffect(async () => {
-        try {
-            const response = await fetch('/api/index', {
-                method:'get',
-                headers:{ 'Content-Type': 'application/json' }
+    useEffect(() => {
+        fetchMessage();
+    }, []);
+
+    useEffect(() => {
+        console.log("!!!!!!!!!!!--------> UPDATE!!!!!");
+    });
+
+    const notifyMessage = {
+        delete: function (no) {
+            setMessages(messages.filter((message) => message.no != no));
+        },
+        add: async function (message) {
+            const response = await fetch('/api', {
+                method: 'post',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'applcation/json'
+                },
+                body: JSON.stringify(message)
             });
 
-            if(!response.ok) {
+            if (!response.ok) {
                 throw new Error(`${response.status} ${response.statusText}`);
             }
 
             const json = await response.json();
-            if(json.result !== 'success'){
-                throw new Error(`${json.result} ${json.message}`);
+            if (json.result !== 'success') {
+                throw json.message;
             }
 
-            setGuestbook(json.data);
-        } catch(err){
+            setMessages([json.data, ...messages]);
+        }
+    }
+
+    const fetchMessage = async function () {
+        console.log('[ex01. Enter]', ' Fetching');
+        if(isFetching === true) {
+            console.log('[Prevent]', ' Fetching -------');
+            return;
+        }
+
+        isFetching = true;
+        console.log('[02.Start]', ' Fetching');
+
+        const startNo = messages.length === 0 ? 0 : messages[messages.length-1].no;
+
+        try {
+            const response = await fetch(`/api/${startNo}`, {
+                method: 'get',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'applcation/json'
+                }
+            });
+
+            if (!response.ok) {
+                throw new Error(`${response.status} ${response.statusText}`);
+            }
+
+            const json = await response.json();
+            if (json.result !== 'success') {
+                throw json.message;
+            }
+
+            // setMessages([...messages, ...json.data]);
+            json.data.length > 0 && setMessages([...messages, ...json.data]);
+            console.log('[03End]', ' Fetching');
+            isFetching = false;
+        } catch (err) {
             console.error(err);
         }
-    }, []);
-
-    const notifyTask = {
-        add: async function(name, password, content){
-            try {
-                const url = `/api/add`;
-                const guestbook = {
-                    no: null,
-                    name: name,
-                    password: password,
-                    content: content
-                }
-
-                const response = await fetch(url, {
-                    method:'post',
-                    headers:{'Content-Type': 'application/json'},
-                    body: JSON.stringify(guestbook)
-                });
-
-                if(!response.ok) {
-                    throw new Error(`${response.result} ${response.message}`);
-                }
-
-                const json = await response.json();
-                if(json.result !== 'success') {
-                    throw new Error(`${json.result} ${json.message}`);
-                }
-            } catch(err) {
-                console.error(err);
-            }
-        },
-        delete: async function(no, password){
-            try {
-                const url = `/api/delete`;
-                const data = {
-                    no: no,
-                    password: password
-                }
-
-                const response = await fetch(url, {
-                    method:'delete',
-                    headers:{'Content-Type': 'application/json'},
-                    body: JSON.stringify(data)
-                });
-
-                if(!response.ok) {
-                    throw new Error(`${response.result} ${response.message}`);
-                }
-
-                const json = await response.json();
-                if(json.result !== 'success') {
-                    throw new Error(`${json.result} ${json.message}`);
-                }
-
-                const guestbookIndex = guestbook.findIndex((element) => element.no === no);
-
-                const newGuestbook = update(guestbook, {
-                    $splice: [[guestbookIndex, 1]]
-                });
-
-                setGuestbook(newGuestbook);
-            } catch(err) {
-                console.error(err);
-            }
-        }
-    };
+    }
 
     return (
-        <div className={ styles.Guestbook }>
-            <h1>방명록</h1>
-            <GuestbookForm notifyTask={ notifyTask } />
-            <GuestbookList 
-                key="Guestbook" 
-                lists={ guestbook }
-                notifyTask={ notifyTask } />
+        <div
+            ref={outterRef}
+            className={styles.ScrollOuter}
+            onScroll={e => {
+                if (outterRef.current.scrollTop + outterRef.current.clientHeight > innerRef.current.clientHeight) {
+                    fetchMessage();
+                }
+            }}>
+            <div ref={innerRef}>
+                <div className={styles.Guestbook}>
+                    <h1>방명록</h1>
+                    <WriteForm notifyMessage={notifyMessage}/>
+                    <MessageList messages={messages} notifyMessage={notifyMessage}/>
+                </div>
+            </div>
         </div>
     );
 }

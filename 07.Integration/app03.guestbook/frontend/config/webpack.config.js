@@ -6,7 +6,7 @@ module.exports = (env) => ({
     output: {
         path: path.resolve('backend/public'),
         filename: 'assets/js/main.js',
-        assetModuleFilename: 'assets/images/[hash][ext]'
+        assetModuleFilename: 'images/[hash][ext]'
     },
     module: {
         rules: [{
@@ -16,7 +16,7 @@ module.exports = (env) => ({
             test: /\.(sa|sc|c)ss$/i,
             use: [
                 'style-loader',
-                { loader: 'css-loader', options: { modules: true } },
+                {loader: 'css-loader', options: {modules: true}},
                 'sass-loader'
             ]
         }, {
@@ -44,3 +44,4 @@ module.exports = (env) => ({
         historyApiFallback: true
     }
 });
+
