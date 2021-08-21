@@ -1,0 +1,104 @@
+2021-08-18 09:36:39 error: SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at ConnectionManager.connect (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:116:17)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async ConnectionManager._connect (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:318:24)
+    at async D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:250:32
+    at async ConnectionManager.getConnection (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:280:7)
+    at async D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\sequelize\lib\sequelize.js:613:26
+    at async MySQLQueryInterface.select (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\sequelize\lib\dialects\abstract\query-interface.js:953:12)
+    at async Function.findAll (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\sequelize\lib\model.js:1753:21)
+    at async readAll (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\backend\controllers\gallery.js:8:29)
+2021-08-18 09:36:41 error: SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at ConnectionManager.connect (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:116:17)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async ConnectionManager._connect (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:318:24)
+    at async D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:250:32
+    at async ConnectionManager.getConnection (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:280:7)
+    at async D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\sequelize\lib\sequelize.js:613:26
+    at async MySQLQueryInterface.select (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\sequelize\lib\dialects\abstract\query-interface.js:953:12)
+    at async Function.findAll (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\sequelize\lib\model.js:1753:21)
+    at async read (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\backend\controllers\guestbook.js:22:29)
+2021-08-18 09:36:42 error: SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at ConnectionManager.connect (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:116:17)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async ConnectionManager._connect (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:318:24)
+    at async D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:250:32
+    at async ConnectionManager.getConnection (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:280:7)
+    at async D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\sequelize\lib\sequelize.js:613:26
+    at async MySQLQueryInterface.select (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\sequelize\lib\dialects\abstract\query-interface.js:953:12)
+    at async Function.findAll (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\sequelize\lib\model.js:1753:21)
+    at async readAll (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\backend\controllers\gallery.js:8:29)
+2021-08-18 09:36:43 error: SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at ConnectionManager.connect (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:116:17)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async ConnectionManager._connect (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:318:24)
+    at async D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:250:32
+    at async ConnectionManager.getConnection (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:280:7)
+    at async D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\sequelize\lib\sequelize.js:613:26
+    at async MySQLQueryInterface.select (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\sequelize\lib\dialects\abstract\query-interface.js:953:12)
+    at async Function.findAll (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\sequelize\lib\model.js:1753:21)
+    at async read (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\backend\controllers\guestbook.js:22:29)
+2021-08-18 09:36:44 error: SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at ConnectionManager.connect (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:116:17)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async ConnectionManager._connect (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:318:24)
+    at async D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:250:32
+    at async ConnectionManager.getConnection (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:280:7)
+    at async D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\sequelize\lib\sequelize.js:613:26
+    at async MySQLQueryInterface.select (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\sequelize\lib\dialects\abstract\query-interface.js:953:12)
+    at async Function.findAll (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\sequelize\lib\model.js:1753:21)
+    at async readAll (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\backend\controllers\gallery.js:8:29)
+2021-08-18 09:36:45 error: SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at ConnectionManager.connect (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:116:17)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async ConnectionManager._connect (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:318:24)
+    at async D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:250:32
+    at async ConnectionManager.getConnection (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:280:7)
+    at async D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\sequelize\lib\sequelize.js:613:26
+    at async MySQLQueryInterface.select (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\sequelize\lib\dialects\abstract\query-interface.js:953:12)
+    at async Function.findAll (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\sequelize\lib\model.js:1753:21)
+    at async read (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\backend\controllers\guestbook.js:22:29)
+2021-08-18 09:38:38 error: Error: Failed to lookup view "error/404" in views directory "D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\backend\views"
+    at Function.render (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\express\lib\response.js:1012:7)
+    at error404 (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\express\lib\router\index.js:317:13)
+    at D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\express\lib\router\index.js:275:10)
+    at next (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\express\lib\router\route.js:127:14)
+    at next (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\express\lib\router\route.js:131:14)
+2021-08-18 09:38:38 error: Error: Failed to lookup view "error/404" in views directory "D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\backend\views"
+    at Function.render (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\express\lib\response.js:1012:7)
+    at error404 (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\express\lib\router\index.js:317:13)
+    at D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\express\lib\router\index.js:275:10)
+    at next (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\express\lib\router\route.js:127:14)
+    at next (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\express\lib\router\route.js:131:14)
+2021-08-18 09:38:39 error: Error: Failed to lookup view "error/404" in views directory "D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\backend\views"
+    at Function.render (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\express\lib\response.js:1012:7)
+    at error404 (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\express\lib\router\index.js:317:13)
+    at D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\express\lib\router\index.js:275:10)
+    at next (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\express\lib\router\route.js:127:14)
+    at next (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\express\lib\router\route.js:131:14)
+2021-08-18 09:38:39 error: Error: Failed to lookup view "error/404" in views directory "D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\backend\views"
+    at Function.render (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\express\lib\response.js:1012:7)
+    at error404 (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\backend\routes\error.js:6:29)
+    at Layer.handle [as handle_request] (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\express\lib\router\index.js:317:13)
+    at D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\express\lib\router\index.js:275:10)
+    at next (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\express\lib\router\route.js:127:14)
+    at next (D:\douzone2021\vscode-projects\react-practices\07.integration\app05.mysite\node_modules\express\lib\router\route.js:131:14)
